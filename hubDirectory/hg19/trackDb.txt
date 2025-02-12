@@ -1,36 +1,9 @@
-track  bigWig1
-bigDataUrl http://hgdownload.soe.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeCshlLongRnaSeq/wgEncodeCshlLongRnaSeqA549CellLongnonpolyaMinusRawSigRep1.bigWig
-shortLabel bigWig example
-longLabel This bigWig file is an example from the ENCODE RNA-seq CSHL Track
-type bigWig
-visibility dense
-
-track bigBed1
-bigDataUrl http://hgdownload.soe.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeCaltechRnaSeq/wgEncodeCaltechRnaSeqGm12891R2x75Il200JunctionsRep1V3.bigBed
-shortLabel bigBed example
-longLabel This bigBed file is an example from the ENCODE RNA-seq Caltech Track
-type bigBed
-visibility dense
-
-track bam1
-bigDataUrl http://hgdownload.soe.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeCshlLongRnaSeq/wgEncodeCshlLongRnaSeqK562CellTotalAlnRep2.bam
-#Note: There is a corresponding fileName.bam.bai in the same above directory 
-shortLabel BAM example
-longLabel This BAM file is an example from the ENCODE RNA-seq CSHL Track
-type bam
-visibility dense
-
-track vcf1
-bigDataUrl http://hgdownload.soe.ucsc.edu/gbdb/hg19/1000Genomes/ALL.chr21.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.vcf.gz
-#Note: there is a corresponding fileName.vcf.gz.tbi in the same above directory
-shortLabel chr21 VCF example
-longLabel This chr21 VCF file is an example from the 1000 Genomes Phase 1 Integrated Variant Calls Track
-type vcfTabix
-visibility dense
-
-track hic1
-bigDataUrl http://hgdownload.soe.ucsc.edu/gbdb/hg19/bbi/hic/GSE63525_GM12878_insitu_primary+replicate_combined.hic
-shortLabel hic example
-longLabel This hic file shows in situ Hi-C data from Rao 2014 on the GM12878 cell line
-type hic
-visibility full
+track cell_cycle_expression
+type bigBarChart 
+name cell cycle-dependent gene expression in K562 cells" description="Cell cycle gene expression in K562. Difference in log2(CPM) (normalized voom expression) with respect to the sample with lowest expression. 
+barChartBars eG1_1 eG1_2 eG1_3 lG1_1 lG1_2 lG1_3 G1S_1 G1S_2 G1S_3 S1_1 S1_2 S1_3 S2_1 S2_3 G2_1 G2_2 G2_3 G2M_1 G2M_2 G2M_3 M_1 M_3
+barChartColors #30123B #30123B #30123B #4777EF #4777EF #4777EF #1BD0D5 #1BD0D5 #1BD0D5 #62FC6B #62FC6B #62FC6B #D2E935 #D2E935 #FE9B2D #FE9B2D #FE9B2D #DB3A07 #DB3A07 #DB3A07 #7A0403 #7A0403
+barChartUnit CPM 
+visibility pack 
+labelFields entrez,mesor,amplitude,padj,stars,phase_assigned
+bigDataUrl https://raw.githubusercontent.com/pulver_forey_track_hub/hubDirectory/main/ucsc_track_hub_rhythmic_expression_with_labels.bb
