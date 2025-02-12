@@ -1,5 +1,6 @@
-hub MyHubsNameWithoutSpaces
-shortLabel My Hub's Name
-longLabel Name up to 80 characters versus shortLabel limited to 17 characters
+hub cycle_quest
+shortLabel Cell cycle gene expression and imbalances upon gene knockdown
+longLabel Novel 8-gate, synchronization free cell cycle expression chronogram on K562 cells, and reanalysis of the Replogle et al. Perturb-seq on K562 cells using VeloCycle (Lederer et al.).
 genomesFile genomes.txt
-email  myEmail@address
+email cyril.pulver@alumni.epfl.ch
+descriptionUrl https://doi.org/10.1101/2024.11.04.621792
