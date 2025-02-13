@@ -8,6 +8,7 @@ barChartColors #30123B #30123B #30123B #4777EF #4777EF #4777EF #1BD0D5 #1BD0D5 #
 barChartUnit min-max-scaled difference in expression 
 visibility pack 
 labelFields symbol,entrez,mesor,amplitude,padj,stars,phase_assigned
+defaultPos chr4:122730159-122752478
 bigDataUrl https://github.com/PulverCyril/pulver_forey_track_hub/raw/refs/heads/main/hubDirectory/ucsc_track_hub_rhythmic_expression_with_labels.bb
 html https://github.com/PulverCyril/pulver_forey_track_hub/raw/refs/heads/main/hubDirectory/description.html
 
@@ -22,5 +23,6 @@ barChartColors #30123B #4777EF #1BD0D5 #62FC6B #D2E935 #FE9B2D #DB3A07 #7A0403
 barChartUnit min-max-scaled difference in expression  
 visibility pack 
 labelFields symbol,entrez,mesor,amplitude,padj,stars,phase_assigned
+defaultPos chr4:122730159-122752478
 bigDataUrl https://github.com/PulverCyril/pulver_forey_track_hub/raw/refs/heads/main/hubDirectory/ucsc_track_hub_rhythmic_expression_average_with_labels.bb
 html https://github.com/PulverCyril/pulver_forey_track_hub/raw/refs/heads/main/hubDirectory/description.html
