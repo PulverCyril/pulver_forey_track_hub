@@ -3,4 +3,4 @@ shortLabel Cell cycle gene expression and imbalances upon gene knockdown
 longLabel Novel 8-gate, synchronization free cell cycle expression chronogram on K562 cells, and reanalysis of the Replogle et al. Perturb-seq on K562 cells using VeloCycle (Lederer et al.).
 genomesFile genomes.txt
 email cyril.pulver@alumni.epfl.ch
-descriptionUrl https://github.com/PulverCyril/pulver_forey_track_hub/raw/refs/heads/main/hubDirectory/description.html
+descriptionUrl description.html
