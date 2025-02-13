@@ -9,6 +9,7 @@ barChartUnit CPM
 visibility pack 
 labelFields symbol,entrez,mesor,amplitude,padj,stars,phase_assigned
 bigDataUrl https://github.com/PulverCyril/pulver_forey_track_hub/raw/refs/heads/main/hubDirectory/ucsc_track_hub_rhythmic_expression_with_labels.bb
+html https://github.com/PulverCyril/pulver_forey_track_hub/raw/refs/heads/main/hubDirectory/description.html
 
 
 track cell_cycle_expression_average
@@ -22,3 +23,4 @@ barChartUnit CPM
 visibility pack 
 labelFields symbol,entrez,mesor,amplitude,padj,stars,phase_assigned
 bigDataUrl https://github.com/PulverCyril/pulver_forey_track_hub/raw/refs/heads/main/hubDirectory/ucsc_track_hub_rhythmic_expression_average_with_labels.bb
+html https://github.com/PulverCyril/pulver_forey_track_hub/raw/refs/heads/main/hubDirectory/description.html
