@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+
+<h2>Description</h2>
+<p>These tracks gather cell cycle-dependent information on 1) gene expression, 2) consequences of gene knockdown and 3) transcription factor binding.</p>
+
+<p>Reference: <a href="https://doi.org/10.1101/2024.11.04.621792" target="_blank">Evolutionarily recent transcription factors partake in human cell cycle regulation, Pulver & Forey et al., unpublished</a></p>
+
+<h3>Synchronization-free chronogram of human cell cycle gene expression</h3>
+  
+<p>We have generated a bulk RNA-seq chronogram of human cell cycle gene expression, without resorting to cell synchronization which inevitably induces distortions 
+  due to replication stress. Instead, we leveraged an <a href="https://doi.org/10.1371/journal.pone.0240769" target="_blank">RNA-preserving cell fixation method</a> 
+  which allowed us to sort cells along the cell cycle based on DNA content (DAPI) and internal CCNA2 levels, before interrogating the resulting cell fractions using RNA-seq.
+  We next tested for rhythmicity, i.e. assessed whether each gene displayed statistically significant oscillations in expression throughout the cell cycle, 
+  using <a href="https://doi.org/10.1186/1742-4682-11-16" target="_blank">cosinor analysis</a>.
+</p>
+  
+<p> Due to the requirements of UCSC's bigBarChart format, in particular its incompatibility with negative values and the default log10(x+1) transformation it performs, 
+  we had to rescale the data for the purpose of display in the Genome Browser. Specifically, we shifted the batch-corrected expression values (Voom-normalized log2(CPM)) by the 
+  baseline expression (MESOR in cosinor jargon), then subtracting the minimum scaled expression value to obtain non-negative values. We then performed the following transformation:
+  x -> (10^x)-1 in anticipation of UCSC's bigBarChart log10(x+1) default transformation.</p>
+  
+  <p>We show one track with all samples, and one track with sample averages, and report the statistical significances of the rhythmicity tests.</p>
+
+<p>
+
+For inquiries, please contact Cyril Pulver at cyril.pulver@alumni.epfl.ch, Romain Forey at romain.forey@epfl.ch or Didier Trono at didier.trono@epfl.ch
+	
+</p>
+  
+	
+</body>
+</html>
